@@ -1,0 +1,234 @@
+---
+name: Clinical Precision AI
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf4'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eef4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dbe9ff'
+  surface-container-highest: '#d3e4fd'
+  on-surface: '#0b1c2e'
+  on-surface-variant: '#414750'
+  inverse-surface: '#213144'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#717781'
+  outline-variant: '#c1c7d2'
+  surface-tint: '#0261a2'
+  primary: '#005087'
+  on-primary: '#ffffff'
+  primary-container: '#1769aa'
+  on-primary-container: '#d4e6ff'
+  inverse-primary: '#9dcaff'
+  secondary: '#006a63'
+  on-secondary: '#ffffff'
+  secondary-container: '#79f3e8'
+  on-secondary-container: '#006f68'
+  tertiary: '#005378'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#006c9b'
+  on-tertiary-container: '#cbe7ff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d1e4ff'
+  primary-fixed-dim: '#9dcaff'
+  on-primary-fixed: '#001d36'
+  on-primary-fixed-variant: '#00497c'
+  secondary-fixed: '#7cf6eb'
+  secondary-fixed-dim: '#5dd9ce'
+  on-secondary-fixed: '#00201d'
+  on-secondary-fixed-variant: '#00504b'
+  tertiary-fixed: '#c9e6ff'
+  tertiary-fixed-dim: '#89ceff'
+  on-tertiary-fixed: '#001e2f'
+  on-tertiary-fixed-variant: '#004c6e'
+  background: '#f8f9ff'
+  on-background: '#0b1c2e'
+  surface-variant: '#d3e4fd'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 48px
+    fontWeight: '700'
+    lineHeight: 56px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  title-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  caption:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.03em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system embodies the confluence of clinical authority, empathetic patient care, and next-generation artificial intelligence tailored for the Indian healthcare ecosystem. The visual language conveys uncompromising diagnostic rigor balanced with human warmthâ€”delivering clarity under high-stress conditions while demystifying advanced AI-assisted treatment pathways.
+
+The core visual style blends **Corporate Modern Clinicalism** with selective **Futuristic Medical Glassmorphism**. Structural foundations leverage pristine white surfaces, crisp clinical divisions, and high-contrast readability conforming to WCAG 2.1 AAA accessibility standards. Soft, diffused cyan-tinted glassmorphism overlays and luminous telemetry highlights are deployed intentionally for AI-generated insights, predictive diagnostics, and multi-specialty hybrid care monitoring. Visual clutter is eliminated to maintain calm confidence for both patients navigating appointments and clinicians reviewing critical vitals.
+
+## Colors
+
+The palette establishes an immediate atmosphere of institutional safety, scientific acumen, and digital precision:
+
+- **Primary Clinical Blue (`#1769AA`):** Anchors core actions, structural headers, navigation frames, and high-importance institutional touchpoints.
+- **Healthcare Teal (`#13A89E`):** Represents biological vitality and holistic recovery. Utilized for proactive wellness signals, successful appointment outcomes, and preventive care highlights.
+- **AI Cyan Accent (`#0EA5E9`) & Vital Emerald (`#10B981`):** Applied strictly to algorithmic insights, real-time diagnostic streams, triage scores, and confirmed vital validations.
+- **Neutral Dark Slate (`#243447`):** The primary text and high-contrast structural anchor, preventing the visual fatigue associated with pure carbon black while ensuring maximum legibility across all ambient lighting levels.
+- **Backgrounds:** Foundation canvas rests on Light Clinical Mist (`#F5F9FC`), layered with Pure Optical White (`#FFFFFF`) containers and delicate Slate-Blue borders (`#E2E8F0`).
+- **Emergency Crimson (`#DC3545`):** Reserved exclusively for urgent interventions, trauma triggers, critical lab threshold warnings, and immediate ambulance/tele-ER escalation controls. Never diluted with non-critical alerts.
+
+## Typography
+
+The typographic hierarchy implements **Plus Jakarta Sans** for headlines and structural titles, leveraging its geometric authority and soft humanistic terminals to engender warmth and confidence.
+
+**Inter** handles all clinical documentation, medical charts, inputs, data values, and body narrative. Its micro-legibility under constrained screen resolutions guarantees accurate comprehension of critical dosages, lab figures, and bilingual descriptions.
+
+### Bilingual Indian Context (English / Hindi)
+All typography tiers must accommodate dual script rendering seamlessly. When Hindi (Devanagari) strings render alongside or within English components, line heights automatically scale by `+15%` to prevent diacritic clipping, while retaining matching visual optical weight against Inter and Plus Jakarta Sans.
+
+## Layout & Spacing
+
+The layout model is anchored on an 8pt structural spatial grid, optimizing content density for data-dense clinician views while providing expansive, calming negative space across patient discovery flows.
+
+### Grid Foundations
+- **Desktop (1200px+):** 12-column responsive fluid grid with `2rem` outer margins and `1.5rem` gutters. Max-width container clamped at `1440px`.
+- **Tablet (768px â€“ 1199px):** 8-column grid with `1.5rem` outer margins and `1rem` gutters.
+- **Mobile (320px â€“ 767px):** 4-column grid with `1rem` outer margins and `1rem` gutters. Touch zones strictly enforce minimum 48px square tap targets.
+
+### Breakpoints & Content Reflow
+- Emergency actions (such as "Call Ambulance", "Instant Tele-Consult", and "Trauma Triage") pin persistently to the bottom viewport on mobile devices with high z-index stacking (`z-50`).
+- Complex diagnostic comparisons reflow from side-by-side split view on desktop to progressive tabbed views on mobile devices.
+
+## Elevation & Depth
+
+This design system avoids heavy drop shadows, favoring atmospheric clarity through clinical layers and controlled light reflection:
+
+- **Level 0 (Base Canvas):** Light Background (`#F5F9FC`) flat surface with zero elevation.
+- **Level 1 (Card & Module Foundation):** Pure White (`#FFFFFF`) with a hairline border (`1px solid #E2E8F0`) and an ambient tinted shadow: `0 2px 8px -2px rgba(23, 105, 170, 0.04), 0 1px 4px -1px rgba(36, 52, 71, 0.03)`.
+- **Level 2 (Interactive & Hover Cards):** Subtle lift using `0 8px 24px -4px rgba(23, 105, 170, 0.08), 0 2px 6px -1px rgba(19, 168, 158, 0.04)`.
+- **Level 3 (Modals, Overlays & Sticky Navbars):** `0 16px 40px -8px rgba(36, 52, 71, 0.12)`.
+- **Level AI (Futuristic Glassmorphic Layers):** Translucent backdrop blur layer for algorithmic diagnostic cards, AI prescription audits, and live vitals streaming:
+  - Background: `rgba(255, 255, 255, 0.82)`
+  - Backdrop Filter: `blur(12px) saturate(180%)`
+  - Border: `1px solid rgba(14, 165, 233, 0.22)`
+  - Inset Highlight: `inset 0 1px 1px 0 rgba(255, 255, 255, 0.9)`
+- **Level Critical (Emergency Notification Overlays):** `#DC3545` pulse glow with soft ring dissipation: `0 0 0 4px rgba(220, 53, 69, 0.15)`.
+
+## Shapes
+
+The shape vocabulary employs **Rounded (Level 2)** geometry:
+- Standard interactive elements, input fields, badges, and alerts adopt an `8px` (`0.5rem`) radius.
+- Cards, diagnostic modals, clinical record modules, and bottom sheets adopt a `16px` (`1rem`) radius (`rounded-lg`).
+- Larger clinical dashboard containers and hero banner containers scale to `24px` (`1.5rem`) radius (`rounded-xl`).
+- Pill shapes (`9999px`) are strictly reserved for bilingual indicator badges, operational status chips (e.g., "ICU Available"), and segmented tab selectors.
+
+## Components
+
+### Buttons
+- **Primary Clinical Action:** Background `#1769AA`, text `#FFFFFF`, 8px radius, font weight 600. Focus ring: `3px solid rgba(23, 105, 170, 0.3)`.
+- **Secondary Care Action:** Background `#13A89E`, text `#FFFFFF`, subtle hover brightness shift (+5%).
+- **AI Assist Action:** Gradient fill `linear-gradient(135deg, #1769AA 0%, #13A89E 100%)`, text `#FFFFFF`, inset soft highlight, paired with a sparkle icon.
+- **Emergency Button:** High-contrast crimson `#DC3545`, pure white text, bold weight, with an animated subtle emergency beacon ripple on active standby.
+- **Outline / Ghost:** Transparent background, `1.5px solid #CBD5E1`, text `#243447`. Hover triggers `#F1F5F9`.
+
+### Bilingual Badges & Indicator Chips
+- **Bilingual Badges:** Dual-script indicator pills (e.g., `Cardiology | à¤¹à¥€))¸)+È8),8)bø)%Ø
+Kˆ›Ü™\ˆ\ÛÛYÑL‘NŒ˜XÚÙÜ›İ[™Ñ‘‘‘‘‘˜›ÛÚ^™HLœ\Ü^Z[™ÈHš[X\H[™İXYÙH›ÛİÙYH]˜[˜YØ\šH[ˆ]]YÍÍ˜‚‹H
+Š”İ]\ÈÚ\ÎŠŠˆYÚXÛÛ˜\İ[X[™\ÛÛYZ\š[™ÜÈ
+K™Ë‹Xİ]™HØİÜˆÑPÑ‘X˜XÚÙÜ›İ[™Ú]ÌÎMØ^È[Y\™Ù[˜ŞNˆÑ‘QŒ‘Œ˜˜XÚÙÜ›İ[™Ú]ĞLPÌPØ^
+K‚‚ˆÈÈÈ[\˜Xİ]™HXœÂ‹HÙYÛY[YÛÛ›Û[È™\İ[™È[ˆH™XÙ\ÜÙY˜XÚÈ
+ÑQŒ‘Ø
+KˆXİ]™HXˆ™XÙZ]™\ÈÑ‘‘‘‘‘˜š[˜Y]\ËİXH]™[H[]˜][ÛˆÚYİË[™ÌMÍPPX^ÙZYÚŒ‚‚ˆÈÈÈ[œ]šY[È	ˆÙ[XİÜœÂ‹H˜XÚÙÜ›İ[™Ñ‘‘‘‘‘˜˜Y]\Ë›Ü™\ˆK\ÛÛYĞĞ‘QLX^ÌÍØ‚‹H›Øİ\Èİ]HXİ]˜]\È[ˆ^XÚ]ÌMÍPPX›Ü™\ˆÚ]HÜ™Ø˜JŒËLKMÌŒMJXÜXØ[š[™Ë‚‹H\œ›Üˆİ]HİÚ]Ú\ÈÈÑÌÍMX›Ü™\ˆÚ]\ÜÚ\İ]™HXYÛ›ÜİXÈZXÜ›ËXÛÜH[™\›™X]‚‚ˆÈÈÈØ\™Â‹H
+ŠÛ[šXØ[İ™\šY]ÈØ\™ŠŠˆ\™HÚ]Hİ\™˜XÙK]™[HÚYİËMœ˜Y]\ËÛÛZ[š[™ÈHİXİ\™YXY\‹İXH]šY\ˆ[™K[™ÛX\ˆ]Y[ÙØİÜˆY]Y]K‚‹H
+ŠRH[[Y]H	ˆXYÛ›ÜİXÈØ\™ŠŠˆ™X]\™\ÈHÛ\ÜÛ[ÜœXÈXØÙ[İ[[™ËŞX[‹]X[Z\›[™HÜ˜YY[›Ü™\‹ÛÙZXÜ›ËYÛİÈXÛÛ‹[™[ˆ^XÚ]ÛÛ™šY[˜ÙHØÛÜ™HØ]YÙH
+K™Ë‹NK	HRHX]ÚÛÛ™šY[˜ÙHŠK‚‹H
+Š‘[Y\™Ù[˜ŞH˜][XHØ\™ŠŠˆYÚ›ÜÙH˜XÚÙÜ›İ[™
+Ñ‘‘QX
+K›Ü™\ˆK\ÛÛYÑĞMPMX\Ü^Z[™ÈÛX\ˆ›İ][™ÈÈ[[YYX]H[K]šXYÙH[™X\\Ü]Ú‚‚ˆÈÈÈÚXÚØ›Ş\È	ˆ˜Y[È]ÛœÂ‹HŒXØÙ\ÜÚX›H[Y[œÚ[Û‹ˆ[˜ÚXÚÙYˆK\ÛÛYÎMLĞˆÚXÚÙYˆÛÛYÌMÍPPXš[Ú]HÜš\ÜÚ]HXÚÈX\šÈÈ˜Y[ÈÙ[\‹ˆ›Øİ\Èİ]H\Ü^\ÈXØÙ\ÜÚX›HÙ™œÙ]›Øİ\Èš[™ÜË

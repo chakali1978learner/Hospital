@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #1769AA;
+    --color-primary-dark: #005087;
+    --color-teal: #13A89E;
+    --color-teal-dark: #006A63;
+    --color-ai-cyan: #0EA5E9;
+    --color-vital: #10B981;
+    --color-emergency: #DC3545;
+    --color-slate-dark: #243447;
+    --color-mist-bg: #F5F9FC;
+    --color-card-border: #E2E8F0;
+  }
+
+  body {
+    background-color: #F5F9FC;
+    color: #243447;
+    font-family: 'Inter', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', sans-serif;
+  }
+}
+
+/* Devanagari bilingual script line-height scaling (+15%) to prevent diacritic clipping */
+[lang="hi"], .bilingual-hindi, .font-hindi {
+  line-height: 1.65 !important;
+  font-family: 'Noto Sans Devanagari', 'Inter', sans-serif;
+}
+
+/* Futuristic Medical Glassmorphism - Level AI */
+.glass-ai {
+  background: rgba(255, 255, 255, 0.84);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(14, 165, 233, 0.22);
+  box-shadow: 0 8px 32px -4px rgba(23, 105, 170, 0.08), inset 0 1px 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.glass-ai-dark {
+  background: rgba(11, 28, 46, 0.88);
+  backdrop-filter: blur(14px) saturate(190%);
+  -webkit-backdrop-filter: blur(14px) saturate(190%);
+  border: 1px solid rgba(14, 165, 233, 0.35);
+  box-shadow: 0 12px 40px -4px rgba(0, 0, 0, 0.35), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Card Elevation Level 1 */
+.card-level-1 {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 2px 8px -2px rgba(23, 105, 170, 0.04), 0 1px 4px -1px rgba(36, 52, 71, 0.03);
+}
+
+/* Interactive Card Elevation Level 2 */
+.card-level-2 {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 8px 24px -4px rgba(23, 105, 170, 0.08), 0 2px 6px -1px rgba(19, 168, 158, 0.04);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-level-2:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 12px 30px -4px rgba(23, 105, 170, 0.12), 0 4px 10px -1px rgba(19, 168, 158, 0.08);
+}
+
+/* Emergency Beacon Pulse */
+@keyframes beacon-ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(220, 53, 69, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 53, 69, 0);
+  }
+}
+
+.beacon-pulse {
+  animation: beacon-ripple 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* Subtle ECG trace scanner animation */
+@keyframes scanline {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-scanline {
+  animation: scanline 3s linear infinite;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

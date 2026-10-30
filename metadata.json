@@ -1,0 +1,6 @@
+{
+  "name": "Clinical Precision AI | क्लीनिकल प्रिसिजन AI",
+  "description": "Next-generation clinical precision healthcare platform and telemetry system with AI predictive diagnostics, bilingual Indian clinical scribing, live ICU vitals, and emergency trauma triage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
